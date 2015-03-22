@@ -15,6 +15,16 @@ class MYSTACK_API CMyStack {
 public:
 	CMyStack(void);
 	// TODO: add your methods here.
+
+	int push(int);
+	int pop(int);
+	int peek(int);
+	int isFull(int);
+	int isEmpty(int);
+
+
+
+
 };
 
 extern MYSTACK_API int nMyStack;

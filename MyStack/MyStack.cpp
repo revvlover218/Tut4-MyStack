@@ -3,7 +3,8 @@
 
 #include "stdafx.h"
 #include "MyStack.h"
-
+#include <math.h>
+#include <stdexcept>
 
 // This is an example of an exported variable
 MYSTACK_API int nMyStack=0;
@@ -20,3 +21,34 @@ CMyStack::CMyStack()
 {
 	return;
 }
+
+int CMyStack::push(int p)
+{
+
+	return p;
+}
+
+int CMyStack::pop(int o)
+{
+
+	return o;
+}
+
+int CMyStack::peek(int e)
+{
+
+	return e;
+}
+
+int CMyStack::isFull(int f)
+{
+
+	return f;
+}
+
+int CMyStack::isEmpty(int i)
+{
+
+	return i;
+}
+
